@@ -1,0 +1,13 @@
+git init
+git config user.name ”KoonMaxsky“
+git config credential.username ”KoonMaxsky“
+
+git config --global user.email ”saowanee2529m@mail.com“
+git config --global user.name ”KoonMaxsky“
+
+
+git add .
+git commit -m ”first commit“
+git branch -M main
+git remote add origin https://github.com/KoonMaxsky/first_project.git
+git push -f origin main
